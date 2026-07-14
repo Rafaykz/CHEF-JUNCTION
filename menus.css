@@ -1,0 +1,188 @@
+.event-needs-section {
+    width: 100%;
+}
+
+.event-needs-banner {
+    min-height: 261px;
+    background-image:
+        url("https://static.wixstatic.com/media/7d0250_5fbfb0e6fc4e43b2b007ab0fd5f54684~mv2.png/v1/fill/w_1440,h_301,al_c,q_90,enc_avif,quality_auto/7d0250_5fbfb0e6fc4e43b2b007ab0fd5f54684~mv2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.event-needs-title {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: clamp(28px, 5vw, 38px);
+    font-weight: 700;
+    background-color: #ffffff;
+    line-height: normal;
+    text-align: center;
+}
+
+.menu-inspiration-section {
+    background-color: #ffffff;
+}
+
+.menu-intro,
+.menu-thank-you {
+    color: #000000;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+.menu-pdf-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 58px;
+    padding: 15px 20px;
+    color: #000000;
+    background-color: #4BD1A0;
+    border: 1px solid #000000;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.menu-pdf-btn i {
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+.menu-pdf-btn:hover {
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.menu-divider {
+    border: 0;
+    border-top: 1px solid #000000;
+    opacity: 1;
+}
+.brochure-section {
+    background-color: #4BD1A0;
+    height: 200vh;
+}
+
+.brochure-main-text {
+    color: #000000;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: clamp(19px, 3vw, 24px);
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+.brochure-divider {
+    border: 0;
+    border-top: 1px solid #000000;
+    opacity: 1;
+}
+
+.brochure-sub-text {
+    color: #000000;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: clamp(16px, 2vw, 19px);
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+.brochure-frame-ratio {
+    --bs-aspect-ratio: 76%;
+    min-height: 381px;
+    
+}
+
+
+.brochure-image {
+    width: 100%;
+    max-width: 501px;
+    height: auto;
+    object-fit: cover;
+}
+.brochure-form-wrapper {
+    width: 100%;
+    padding: 35px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.08);
+}
+
+.brochure-form .form-label {
+    margin-bottom: 8px;
+    color: #000000;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.brochure-input {
+    min-height: 50px;
+    padding: 12px 15px;
+    color: #000000;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 0;
+    font-size: 15px;
+}
+
+.brochure-input::placeholder {
+    color: #777777;
+}
+
+.brochure-input:focus {
+    color: #000000;
+    background-color: #ffffff;
+    border-color: #4bd1a0;
+    box-shadow: none;
+}
+
+.brochure-textarea {
+    min-height: 140px;
+    resize: vertical;
+}
+
+.form-check-input {
+    border: 1px solid #000000;
+    border-radius: 0;
+}
+
+.form-check-input:checked {
+    background-color: #4bd1a0;
+    border-color: #4bd1a0;
+}
+
+.form-check-input:focus {
+    border-color: #4bd1a0;
+    box-shadow: none;
+}
+
+.agreement-label {
+    color: #000000;
+    font-size: 14px;
+}
+
+.brochure-submit-btn {
+    min-width: 170px;
+    padding: 13px 30px;
+    color: #ffffff;
+    background-color: #ae9a64;
+    border: 1px solid #ae9a64;
+    border-radius: 0;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.brochure-submit-btn:hover {
+    color: #ae9a64;
+    background-color: transparent;
+    border-color: #ae9a64;
+}

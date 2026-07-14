@@ -1,0 +1,1311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Chef Junction</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+
+    <!-- Font Awesome -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         Navbar
+    ========================== -->
+
+    <header class="site-header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+
+                <a class="navbar-brand" href="/">
+                    CHEF JUNCTION
+                </a>
+
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#mainNavbar"
+                    aria-controls="mainNavbar"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="mainNavbar">
+
+                   <ul class="navbar-nav mx-auto align-items-lg-center">
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="/">
+                                Home
+                            </a>
+                        </li>
+
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/discover.html">
+                                Discover
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/menus.html">
+                                Menu
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/contact.html">
+                                Contact Us
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/blog.html">
+                                Blog
+                            </a>
+                        </li>
+
+                    </ul>
+
+                    <div class="social-icons d-flex align-items-center justify-content-center">
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- =========================
+         Small Tagline
+    ========================== -->
+
+    <section class="tagline-section">
+        <div class="container text-center">
+            <p class="mb-0">
+                Catering experience unlike any other.
+            </p>
+        </div>
+    </section>
+
+
+    <!-- =========================
+         Bootstrap Hero Slider
+    ========================== -->
+
+    <section class="hero-slider">
+
+        <div
+            id="chefHeroSlider"
+            class="carousel slide carousel-fade"
+            data-bs-ride="carousel"
+            data-bs-interval="4000"
+        >
+
+            <!-- Indicators -->
+            <div class="carousel-indicators">
+                <button
+                    type="button"
+                    data-bs-target="#chefHeroSlider"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                ></button>
+
+                <button
+                    type="button"
+                    data-bs-target="#chefHeroSlider"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                ></button>
+
+                <button
+                    type="button"
+                    data-bs-target="#chefHeroSlider"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                ></button>
+
+                <button
+                    type="button"
+                    data-bs-target="#chefHeroSlider"
+                    data-bs-slide-to="3"
+                    aria-label="Slide 4"
+                ></button>
+            </div>
+
+            <div class="carousel-inner">
+
+                <!-- Slide 1 -->
+                <div class="carousel-item active">
+                    <img
+                        src="https://static.wixstatic.com/media/667e03_e570f48f3a0647148d83d7976e764708~mv2.jpg/v1/fill/w_1600,h_900,al_c,q_85,enc_avif,quality_auto/667e03_e570f48f3a0647148d83d7976e764708~mv2.jpg"
+                        class="d-block w-100 hero-slide-image"
+                        alt="Professional catering service"
+                    >
+
+                    <div class="hero-overlay"></div>
+
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <span class="hero-small-title">
+                                Chef Junction
+                            </span>
+
+                            <h1>
+                                Concierge Catering
+                            </h1>
+
+                            <p>
+                                Exceptional culinary experiences created for your
+                                celebrations, gatherings and special events.
+                            </p>
+
+                           
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="carousel-item">
+                    <img
+                        src="https://images.unsplash.com/photo-1555244162-803834f70033?auto=format&fit=crop&w=1600&q=80"
+                        class="d-block w-100 hero-slide-image"
+                        alt="Fine dining catering"
+                    >
+
+                    <div class="hero-overlay"></div>
+
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <span class="hero-small-title">
+                                Memorable Dining
+                            </span>
+
+                            <h2>
+                                Flavours From Around the World
+                            </h2>
+
+                            <p>
+                                Discover seasonal menus prepared by talented
+                                culinary professionals.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="carousel-item">
+                    <img
+                        src="https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=1600&q=80"
+                        class="d-block w-100 hero-slide-image"
+                        alt="Elegant event table"
+                    >
+
+                    <div class="hero-overlay"></div>
+
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <span class="hero-small-title">
+                                Private Events
+                            </span>
+
+                            <h2>
+                                Celebrate Every Special Moment
+                            </h2>
+
+                            <p>
+                                From intimate dinners to large celebrations,
+                                we create an experience designed around you.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 4 -->
+                <div class="carousel-item">
+                    <img
+                        src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1600&q=80"
+                        class="d-block w-100 hero-slide-image"
+                        alt="Chef prepared meal"
+                    >
+
+                    <div class="hero-overlay"></div>
+
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <span class="hero-small-title">
+                                Culinary Excellence
+                            </span>
+
+                            <h2>
+                                Made With Passion and Quality
+                            </h2>
+
+                            <p>
+                                Beautifully presented dishes made using fresh,
+                                carefully selected ingredients.
+                            </p>
+
+                            <a href="#" class="btn hero-btn">
+                                Meet Our Chefs
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Previous Button -->
+            <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#chefHeroSlider"
+                data-bs-slide="prev"
+            >
+                <span class="slider-arrow" aria-hidden="true">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </span>
+
+                <span class="visually-hidden">
+                    Previous
+                </span>
+            </button>
+
+            <!-- Next Button -->
+            <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#chefHeroSlider"
+                data-bs-slide="next"
+            >
+                <span class="slider-arrow" aria-hidden="true">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </span>
+
+                <span class="visually-hidden">
+                    Next
+                </span>
+            </button>
+
+        </div>
+    </section>
+
+
+    <!-- =========================
+         About Chef Junction
+    ========================== -->
+
+    <section class="about-section">
+        <div class="container">
+
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-10">
+
+                    <h2 class="main-section-title">
+                        Who we are  <br> & <br> Core Values
+                    </h2>
+
+                </div>
+            </div>
+
+            <div class="row g-4 mt-4">
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="value-card h-100">
+
+                        <div class="value-number">
+                            01
+                        </div>
+
+                        <p>
+                            We are a multi-discipline culinary company designed to connect our community the concierge catering with flavors from the world. 
+                        </p>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="value-card h-100">
+
+                        <div class="value-number">
+                            02
+                        </div>
+
+                        <p>
+                           Our love for service and quality is expressed in the memorable dining experience you reap from the fruits of our seasonal exquisite culinary creations.
+                        </p>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-12">
+                    <div class="value-card h-100">
+
+                        <div class="value-number">
+                            03
+                        </div>
+
+                        <p>
+                            We champion commensality with our community, creating memorable dining experiences that cement relationships with the local San Antonian and beyond.
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row align-items-center g-5 mt-5">
+
+                
+                    <h2 class="main-section-title text-center">
+                        About Chef Junction
+                    </h2>
+
+                <div class="col-lg-6">
+                    <div class="about-image">
+                        <img
+                            src="https://static.wixstatic.com/media/667e03_19c2c30ba6e64d9ab4b6181bd04cb73a~mv2.png/v1/crop/x_0,y_64,w_1080,h_927/fill/w_1044,h_896,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/Untitled%20design%20(6).png"
+                            class="img-fluid"
+                            alt="Chef Junction culinary team"
+                        >
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="mission-content">
+
+                        <p>
+                            Mission Statement: <br>
+
+                        We recognize that dining is a community event. Our passion is to make yours memorable by connecting you and your community with our exceptional Chefs bringing flavors of the World home while being considered the best catering  service in San Antonio! We "Serve in excellence to glorify God" 1 Cor 10:31
+                        </p>
+
+                        <a href="/contact.html" class="btn custom-btn">
+                            Book Your Catering Experience
+
+                            <i class="fa-solid fa-arrow-right ms-2"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- =========================
+         Key Concept Section
+    ========================== -->
+
+    <section class="concept-section">
+        <div class="container-fluid px-0">
+
+            <div class="row g-0 align-items-stretch">
+
+                <div class="col-lg-6">
+                    <div class="concept-image h-100">
+                        <img
+                            src="https://static.wixstatic.com/media/d09198dcf23b49b7a2627671fa0351e6.jpg/v1/fill/w_980,h_1628,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/d09198dcf23b49b7a2627671fa0351e6.jpg"
+                            alt="Tempura vegetables catering dish"
+                        >
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="concept-content">
+
+                        <div class="concept-block">
+
+                            <h2>
+                                Key Concept
+                            </h2>
+
+                            <p>
+                               Chef Junction is created to celebrate exposure of talented known and up-and-coming Chefs to our community by enriching communal awareness and appreciation of these gastronomic artists, and associated collaborative service and agricultural alignments, through traditional and dynamic venues that foster advancement of constructive changes to our culinary landscape.
+                            </p>
+
+                        </div>
+
+                        <div class="concept-divider"></div>
+
+                        <div class="concept-block">
+
+                            <h2>
+                                What Drives Us?
+                            </h2>
+
+                            <p>
+                                We are committed to the environment, and our community, driven to continually create new ways to experience food, curated through our culinary talents and exceptional hospitality services, through exclusive dining events, to continue to enrich our community’s awareness of exquisite global gastronomic creations shared by our celebrated culinary artists with curious diners, to experience new food and meet new people. We stive to be the go-to catering service in San Antonio. 
+                            </p>
+
+                            <a href="/discover.html" class="btn custom-btn">
+                                Learn More
+
+                                <i class="fa-solid fa-users ms-2"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+ <!-- Our Valued Customers & Partners Section -->
+<section class="partners-section">
+
+    <div class="container-fluid">
+
+        <h2 class="partners-heading">
+            Our Valued Customers &amp; Partners
+        </h2>
+
+        <div
+            id="partnersCarousel"
+            class="carousel slide"
+            data-bs-ride="carousel"
+            data-bs-interval="3000"
+        >
+
+            <div class="carousel-inner">
+
+                <!-- Slide 1 -->
+                <div class="carousel-item active">
+
+                    <div class="container">
+
+                        <div class="row g-4 justify-content-center align-items-center">
+
+                            <div class="col-lg-3 col-md-6">
+                                <div class="partner-image-box">
+                                    <img
+                                        src="https://static.wixstatic.com/media/667e03_11d23d828a0341d3af074940fc8d9ec0~mv2.jpg/v1/fit/w_407,h_305,q_90,enc_avif,quality_auto/667e03_11d23d828a0341d3af074940fc8d9ec0~mv2.jpg"
+                                        class="img-fluid"
+                                        alt=""
+                                    >
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6">
+                                <div class="partner-image-box">
+                                    <img
+                                        src="https://static.wixstatic.com/media/667e03_0dd3753bcddc4871b22c0171a3266914~mv2.png/v1/fit/w_455,h_305,q_90,enc_avif,quality_auto/667e03_0dd3753bcddc4871b22c0171a3266914~mv2.png"
+                                        class="img-fluid"
+                                        alt="pink-standard.png"
+                                    >
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6">
+                                <div class="partner-image-box">
+                                    <img
+                                        src="https://static.wixstatic.com/media/667e03_9b6247b67f9f4facbfe2cf3a14d7007b~mv2.jpg/v1/fit/w_225,h_225,q_90,enc_avif,quality_auto/667e03_9b6247b67f9f4facbfe2cf3a14d7007b~mv2.jpg"
+                                        class="img-fluid"
+                                        alt=""
+                                    >
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6">
+                                <div class="partner-image-box">
+                                    <img
+                                        src="https://static.wixstatic.com/media/667e03_76a904f9b4fe439a801876797d20f4d3~mv2.jpg/v1/fit/w_466,h_305,q_90,enc_avif,quality_auto/667e03_76a904f9b4fe439a801876797d20f4d3~mv2.jpg"
+                                        class="img-fluid"
+                                        alt=""
+                                    >
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Slide 2 -->
+                <div class="carousel-item">
+
+                    <div class="container">
+
+                        <div class="row g-4 justify-content-center align-items-center">
+
+                            <div class="col-lg-3 col-md-6">
+                                <div class="partner-image-box">
+                                    <img
+                                        src="https://static.wixstatic.com/media/667e03_55d9d8b961db4af6a44001adac4a46fc~mv2.jpg/v1/fit/w_721,h_305,q_90,enc_avif,quality_auto/667e03_55d9d8b961db4af6a44001adac4a46fc~mv2.jpg"
+                                        class="img-fluid"
+                                        alt=""
+                                    >
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6">
+                                <div class="partner-image-box">
+                                    <img
+                                        src="https://static.wixstatic.com/media/667e03_7a561bc0295f41cc980b8264b9f40008~mv2.jpg/v1/fit/w_225,h_225,q_90,enc_avif,quality_auto/667e03_7a561bc0295f41cc980b8264b9f40008~mv2.jpg"
+                                        class="img-fluid"
+                                        alt=""
+                                    >
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6">
+                                <div class="partner-image-box">
+                                    <img
+                                        src="https://static.wixstatic.com/media/667e03_1591b4e2b36740b78fab3bbfcb3b3b27~mv2.png/v1/fit/w_248,h_203,q_90,enc_avif,quality_auto/667e03_1591b4e2b36740b78fab3bbfcb3b3b27~mv2.png"
+                                        class="img-fluid"
+                                        alt=""
+                                    >
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6">
+                                <div class="partner-image-box">
+                                    <img
+                                        src="https://static.wixstatic.com/media/667e03_3862dd902c3442e4947b6d3030b2a9cc~mv2.jpg/v1/fit/w_250,h_138,q_90,enc_avif,quality_auto/667e03_3862dd902c3442e4947b6d3030b2a9cc~mv2.jpg"
+                                        class="img-fluid"
+                                        alt=""
+                                    >
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Slide 3 -->
+                <div class="carousel-item">
+
+                    <div class="container">
+
+                        <div class="row g-4 justify-content-center align-items-center">
+
+                            <div class="col-lg-3 col-md-6">
+                                <div class="partner-image-box">
+                                    <img
+                                        src="https://static.wixstatic.com/media/667e03_483457df52bb4c3a9deb286452ffe152~mv2.jpg/v1/fit/w_250,h_176,q_90,enc_avif,quality_auto/667e03_483457df52bb4c3a9deb286452ffe152~mv2.jpg"
+                                        class="img-fluid"
+                                        alt=""
+                                    >
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6">
+                                <div class="partner-image-box">
+                                    <img
+                                        src="https://static.wixstatic.com/media/667e03_b3a71815ebd9437e81c3a17a91932b60~mv2.png/v1/fit/w_200,h_200,q_90,enc_avif,quality_auto/667e03_b3a71815ebd9437e81c3a17a91932b60~mv2.png"
+                                        class="img-fluid"
+                                        alt=""
+                                    >
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6">
+                                <div class="partner-image-box">
+                                    <img
+                                        src="https://static.wixstatic.com/media/667e03_ea67150df5d84055a32deabb5608e9c3~mv2.jpg/v1/fit/w_310,h_163,q_90,enc_avif,quality_auto/667e03_ea67150df5d84055a32deabb5608e9c3~mv2.jpg"
+                                        class="img-fluid"
+                                        alt=""
+                                    >
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6">
+                                <div class="partner-image-box">
+                                    <img
+                                        src="https://static.wixstatic.com/media/667e03_1661a7a1e3ba475b83ba42863f46f99e~mv2.png/v1/fit/w_312,h_161,q_90,enc_avif,quality_auto/667e03_1661a7a1e3ba475b83ba42863f46f99e~mv2.png"
+                                        class="img-fluid"
+                                        alt=""
+                                    >
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Slide 4 -->
+                <div class="carousel-item">
+
+                    <div class="container">
+
+                        <div class="row g-4 justify-content-center align-items-center">
+
+                            <div class="col-lg-4 col-md-6">
+                                <div class="partner-image-box">
+                                    <img
+                                        src="https://static.wixstatic.com/media/667e03_95a6bb6d82854ddb9e998f577baa7ede~mv2.jpg/v1/fit/w_268,h_188,q_90,enc_avif,quality_auto/667e03_95a6bb6d82854ddb9e998f577baa7ede~mv2.jpg"
+                                        class="img-fluid"
+                                        alt=""
+                                    >
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6">
+                                <div class="partner-image-box">
+                                    <img
+                                        src="https://static.wixstatic.com/media/667e03_18a8041b80c44a08af2c0189a74ec30b~mv2.png/v1/fit/w_305,h_305,q_90,enc_avif,quality_auto/667e03_18a8041b80c44a08af2c0189a74ec30b~mv2.png"
+                                        class="img-fluid"
+                                        alt=""
+                                    >
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Previous Arrow -->
+            <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#partnersCarousel"
+                data-bs-slide="prev"
+            >
+                <span class="partners-arrow" aria-hidden="true">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </span>
+
+                <span class="visually-hidden">
+                    Previous
+                </span>
+            </button>
+
+
+            <!-- Next Arrow -->
+            <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#partnersCarousel"
+                data-bs-slide="next"
+            >
+                <span class="partners-arrow" aria-hidden="true">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </span>
+
+                <span class="visually-hidden">
+                    Next
+                </span>
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+    <!-- =========================
+         CTA Section
+    ========================== -->
+
+   <section class="testimonials-section">
+
+    <div
+        id="testimonialsCarousel"
+        class="carousel slide"
+        data-bs-ride="carousel"
+        data-bs-interval="4000"
+    >
+
+        <div class="carousel-inner">
+
+            <!-- Testimonial 1 -->
+            <div class="carousel-item active">
+
+                <div class="testimonial-slide">
+
+                    <div class="container">
+
+                        <div class="row justify-content-center">
+
+                            <div class="col-lg-9 col-md-10">
+
+                                <h2 class="testimonials-heading">
+                                    TESTIMONIALS
+                                </h2>
+
+                                <p class="testimonial-text">
+                                    I attended a murder mystery dinner last night
+                                    that you catered. Bravo to you for such amazing
+                                    food and service! Everything was delicious,
+                                    and the staff was very friendly. Thank you for
+                                    an amazing dining experience! - Damara
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Testimonial 2 -->
+            <div class="carousel-item">
+
+                <div class="testimonial-slide">
+
+                    <div class="container">
+
+                        <div class="row justify-content-center">
+
+                            <div class="col-lg-9 col-md-10">
+
+                                <h2 class="testimonials-heading">
+                                    TESTIMONIALS
+                                </h2>
+
+                                <p class="testimonial-text">
+                                    "The catering was very last moment but this
+                                    was no problem for Juan! The communication
+                                    was great even with the 7 hour time difference
+                                    in San Antonio and Europe. If I need a caterer
+                                    for a future even in San Antonio I know where
+                                    I need to go!"
+                                </p>
+
+                                <p class="testimonial-text">
+                                    - KG Wiersma (Corporate Event Manager)
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Testimonial 3 -->
+            <div class="carousel-item">
+
+                <div class="testimonial-slide">
+
+                    <div class="container">
+
+                        <div class="row justify-content-center">
+
+                            <div class="col-lg-9 col-md-10">
+
+                                <h2 class="testimonials-heading">
+                                    TESTIMONIALS
+                                </h2>
+
+                                <p class="testimonial-text">
+                                    "Chef Junction has been amazing for our
+                                    community here, at Arrive EIlan! I have also
+                                    worked in the culinary industry for 23 years
+                                    and the cuisine that they produce is the best
+                                    I have ever tasted and the residents at our
+                                    luxury community feel the same way!"
+                                </p>
+
+                                <p class="testimonial-text">
+                                    - Tara Burch (Event Coordinator at Arrive Eilan)
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Testimonial 4 -->
+            <div class="carousel-item">
+
+                <div class="testimonial-slide">
+
+                    <div class="container">
+
+                        <div class="row justify-content-center">
+
+                            <div class="col-lg-9 col-md-10">
+
+                                <h2 class="testimonials-heading">
+                                    TESTIMONIALS
+                                </h2>
+
+                                <p class="testimonial-text">
+                                    "We have used Chef Junction services time and
+                                    time again, only to find their culinary art
+                                    to become improved and their service to be
+                                    with more excellence each time. There is not
+                                    one thing that I have tasted that wasn’t just
+                                    amazing!!
+                                </p>
+
+                                <p class="testimonial-text">
+                                    Thank you team!! You all make our events the best."
+                                </p>
+
+                                <p class="testimonial-text">
+                                    - Brenda Zurita
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Testimonial 5 -->
+            <div class="carousel-item">
+
+                <div class="testimonial-slide">
+
+                    <div class="container">
+
+                        <div class="row justify-content-center">
+
+                            <div class="col-lg-9 col-md-10">
+
+                                <h2 class="testimonials-heading">
+                                    TESTIMONIALS
+                                </h2>
+
+                                <p class="testimonial-text">
+                                    "Chef Juan Cardona is brilliant. The craft in
+                                    his cuisine is off the chart. Today my
+                                    colleagues and I enjoyed a multi course Syrian
+                                    meal. Remarkable. Delicious and full of love.
+                                    Put him on your catering speed dial."
+                                </p>
+
+                                <p class="testimonial-text">
+                                    - Robbie Vitrano
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Testimonial 6 -->
+            <div class="carousel-item">
+
+                <div class="testimonial-slide">
+
+                    <div class="container">
+
+                        <div class="row justify-content-center">
+
+                            <div class="col-lg-9 col-md-10">
+
+                                <h2 class="testimonials-heading">
+                                    TESTIMONIALS
+                                </h2>
+
+                                <p class="testimonial-text">
+                                    We had Chef Juan and his nephew at our home
+                                    to cook for my mother in laws 70th birthday.
+                                    <br><br>
+                                    The food and the presentation was nothing
+                                    short of spectacular and Chef Juan and his
+                                    nephew are so engaging and enjoyable to be
+                                    around. I highly recommend!!
+                                </p>
+
+                                <p class="testimonial-text">
+                                    - Missy White Peters
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Previous Button -->
+        <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#testimonialsCarousel"
+            data-bs-slide="prev"
+        >
+            <span class="testimonial-arrow" aria-hidden="true">
+                <i class="fa-solid fa-chevron-left"></i>
+            </span>
+
+            <span class="visually-hidden">
+                Previous
+            </span>
+        </button>
+
+
+        <!-- Next Button -->
+        <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#testimonialsCarousel"
+            data-bs-slide="next"
+        >
+            <span class="testimonial-arrow" aria-hidden="true">
+                <i class="fa-solid fa-chevron-right"></i>
+            </span>
+
+            <span class="visually-hidden">
+                Next
+            </span>
+        </button>
+
+
+        <!-- Indicators -->
+        <div class="carousel-indicators testimonial-indicators">
+
+            <button
+                type="button"
+                data-bs-target="#testimonialsCarousel"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Testimonial 1"
+            ></button>
+
+            <button
+                type="button"
+                data-bs-target="#testimonialsCarousel"
+                data-bs-slide-to="1"
+                aria-label="Testimonial 2"
+            ></button>
+
+            <button
+                type="button"
+                data-bs-target="#testimonialsCarousel"
+                data-bs-slide-to="2"
+                aria-label="Testimonial 3"
+            ></button>
+
+            <button
+                type="button"
+                data-bs-target="#testimonialsCarousel"
+                data-bs-slide-to="3"
+                aria-label="Testimonial 4"
+            ></button>
+
+            <button
+                type="button"
+                data-bs-target="#testimonialsCarousel"
+                data-bs-slide-to="4"
+                aria-label="Testimonial 5"
+            ></button>
+
+            <button
+                type="button"
+                data-bs-target="#testimonialsCarousel"
+                data-bs-slide-to="5"
+                aria-label="Testimonial 6"
+            ></button>
+
+        </div>
+
+    </div>
+
+
+    
+
+</section>
+
+<section class="contact-location-section py-5">
+
+    <div class="container">
+
+        <!-- Heading -->
+        <div class="row justify-content-center text-center mb-5">
+
+            <div class="col-12 col-md-10 col-lg-8">
+
+                <h2 class="contact-heading">
+                    CONTACT &amp; LOCATION
+                </h2>
+
+                <p class="contact-subheading mb-0">
+                    TELL US WHAT YOU THINK AND HOW WE'RE DOING
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- Contact Form -->
+        <div class="row justify-content-center mb-5">
+
+            <div class="col-12 col-md-10 col-lg-8">
+
+                <form action="#" method="post">
+
+                    <div class="row g-3">
+
+                        <div class="col-12 col-md-6">
+
+                            <input
+                                type="text"
+                                name="name"
+                                class="form-control contact-input"
+                                placeholder="Name"
+                                maxlength="100"
+                                autocomplete="off"
+                                required
+                            >
+
+                        </div>
+
+                        <div class="col-12 col-md-6">
+
+                            <input
+                                type="email"
+                                name="email"
+                                class="form-control contact-input"
+                                placeholder="Email"
+                                maxlength="250"
+                                autocomplete="off"
+                                required
+                            >
+
+                        </div>
+
+                        <div class="col-12">
+
+                            <input
+                                type="tel"
+                                name="phone"
+                                class="form-control contact-input"
+                                placeholder="Phone"
+                                maxlength="50"
+                                autocomplete="off"
+                            >
+
+                        </div>
+
+                        <div class="col-12">
+
+                            <textarea
+                                name="message"
+                                class="form-control contact-input contact-textarea"
+                                placeholder="Type your message here..."
+                                required
+                            ></textarea>
+
+                        </div>
+
+                        <div class="col-12 text-end">
+
+                            
+
+                                <a href="/thanks.html"
+                            
+                                class="btn contact-submit-btn"
+                                >
+                                Submit
+                                </a>
+
+                        </div>
+
+                        <div class="col-12">
+
+                            <p class="submit-message text-end mb-0">
+                                Thanks for submitting!
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </form>
+
+            </div>
+
+        </div>
+
+
+        <!-- Logo and Contact Details -->
+        <div class="row justify-content-center text-center mb-5">
+
+            <div class="col-12 col-md-8 col-lg-6">
+
+                <img
+                    src="https://static.wixstatic.com/media/667e03_0dbd065d4f3643b8b26c3ea70b2cd2ca~mv2.png/v1/crop/x_376,y_394,w_338,h_338/fill/w_188,h_188,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Untitled%20design%20(67).png"
+                    class="img-fluid contact-logo mb-4"
+                    alt="Untitled design (67)"
+                    width="188"
+                    height="188"
+                >
+
+                <p class="contact-details mb-1">
+                    1811 South Laredo St., San Antonio, TX 78207
+                </p>
+
+                <p class="contact-details mb-0">
+
+                    <a href="#" class="contact-link">
+                        info@chefjunction.com
+                    </a>
+
+                    / 210-429-0798
+
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- Map -->
+        <div class="row justify-content-center mb-4">
+
+            <div class="col-12">
+
+                <div class="ratio ratio-21x9 contact-map">
+
+                    <iframe
+                        src="https://www.google.com/maps?q=1811%20South%20Laredo%20St.%20San%20Antonio%20TX%2078207&output=embed"
+                        title="Google Maps"
+                        loading="lazy"
+                        allowfullscreen
+                    ></iframe>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Go To Top -->
+        <div class="row justify-content-center">
+
+            <div class="col-12 text-center">
+
+                <a href="#" class="go-top-btn">
+
+                    <span>
+                        GO TO TOP
+                    </span>
+
+                    <i class="fa-solid fa-chevron-up ms-2"></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<footer class="site-footer py-4">
+
+    <div class="container">
+
+        <div class="row justify-content-center">
+
+            <div class="col-12 col-md-10 col-lg-8 text-center">
+
+                <p class="footer-text mb-1">
+                    © Chef Junction. Catering for all events. 210-429-0798
+                </p>
+
+                <p class="footer-text mb-1">
+                    San Antonio, Tx. 78207
+                </p>
+
+                <p class="footer-text mb-0">
+                    Proudly created by
+                    <a href="#" class="footer-link">
+                        beknowncreativemedia.com
+                    </a>
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+    <!-- Bootstrap JavaScript -->
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    ></script>
+
+</body>
+</html>

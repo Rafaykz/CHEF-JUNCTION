@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Chef Junction</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+
+    <!-- Font Awesome -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         Navbar
+    ========================== -->
+
+    <header class="site-header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+
+                <a class="navbar-brand" href="/">
+                    CHEF JUNCTION
+                </a>
+
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#mainNavbar"
+                    aria-controls="mainNavbar"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="mainNavbar">
+
+                    <ul class="navbar-nav mx-auto align-items-lg-center">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/">
+                                Home
+                            </a>
+                        </li>
+
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/discover.html">
+                                Discover
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/menus.html">
+                                Menu
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/contact.html">
+                                Contact Us
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="/blog.html">
+                                Blog
+                            </a>
+                        </li>
+
+                    </ul>
+
+                    <div class="social-icons d-flex align-items-center justify-content-center">
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+<section class="blog-section py-5">
+
+    <div class="container">
+
+        <!-- Blog Header -->
+        <div class="row align-items-center g-3 mb-4">
+
+            <div class="col-12 col-md-6">
+
+                <nav aria-label="Blog Navigation">
+
+                    <a
+                      
+                        class="all-posts-link"
+                        aria-current="page"
+                    >
+                        All Posts
+                    </a>
+
+                </nav>
+
+            </div>
+
+            <div class="col-12 col-md-6">
+
+                <form action="#" class="blog-search-form">
+
+                    <div class="input-group blog-search-group">
+
+                        <span class="input-group-text blog-search-icon">
+
+                            <i class="fa-solid fa-magnifying-glass"></i>
+
+                        </span>
+
+                        <input
+                            type="search"
+                            class="form-control blog-search-input"
+                            placeholder="Search"
+                            aria-label="Search blog posts"
+                        >
+
+                    </div>
+
+                </form>
+
+            </div>
+
+        </div>
+
+
+        <!-- Blog Post -->
+        <div class="row justify-content-center">
+
+            <div class="col-12">
+
+                <article class="blog-post-card">
+
+                    <div class="row g-0 align-items-stretch">
+
+                        <!-- Blog Image -->
+                        <div class="col-12 col-lg-6">
+
+                            <a class="blog-image-link">
+
+                                <img
+                                    src="https://static.wixstatic.com/media/667e03_ca71f1b1ca7f457c8846feb7ec7723e1~mv2.jpg/v1/fill/w_1816,h_1364,fp_0.50_0.50,q_90,enc_avif,quality_auto/667e03_ca71f1b1ca7f457c8846feb7ec7723e1~mv2.jpg"
+                                    class="img-fluid w-100 blog-post-image"
+                                    alt="Shrimp Scampi with Paesano Sauce Recipe"
+                                >
+
+                            </a>
+
+                        </div>
+
+
+                        <!-- Blog Content -->
+                        <div class="col-12 col-lg-6">
+
+                            <div class="blog-post-content d-flex flex-column h-100">
+
+                                <!-- Author Details -->
+                                <div class="d-flex align-items-center justify-content-between gap-3">
+
+                                    <div class="d-flex align-items-center gap-3">
+
+                                        <div class="blog-author-image">
+
+                                            <i class="fa-solid fa-user"></i>
+
+                                        </div>
+
+                                        <div>
+
+                                            <a href="#" class="blog-author-name">
+                                                chefjunctionsa
+                                            </a>
+
+                                            <div class="blog-post-meta">
+
+                                                <span>
+                                                    May 23, 2021
+                                                </span>
+
+                                                <span class="meta-separator">
+                                                    •
+                                                </span>
+
+                                                <span>
+                                                    3 min read
+                                                </span>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+
+                                    <div class="dropdown">
+
+                                        <button
+                                            class="btn blog-more-btn"
+                                            type="button"
+                                            data-bs-toggle="dropdown"
+                                            aria-expanded="false"
+                                            aria-label="More actions"
+                                        >
+                                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                                        </button>
+
+                                        <ul class="dropdown-menu dropdown-menu-end">
+
+                                            <li>
+                                                <a class="dropdown-item" href="#">
+                                                    Share Post
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a class="dropdown-item" href="#">
+                                                    Copy Link
+                                                </a>
+                                            </li>
+
+                                        </ul>
+
+                                    </div>
+
+                                </div>
+
+
+                                <!-- Blog Text -->
+                                <div class="blog-main-content">
+
+                                    <a href="#" class="blog-title-link">
+
+                                        <h2 class="blog-post-title">
+                                            Shrimp Scampi with Paesano Sauce Recipe!
+                                        </h2>
+
+                                    </a>
+
+                                    <p class="blog-post-description">
+                                        Have we got an amazing, savory and easy
+                                        to make recipe for you guys! Paesano
+                                        Sauce with Shrimp Scampi... Or Shrimp
+                                        Scampi with Paesano...
+                                    </p>
+
+                                </div>
+
+
+                                <!-- Blog Footer -->
+                                <div class="blog-post-footer mt-auto">
+
+                                    <div class="row align-items-center g-3">
+
+                                        <div class="col-8">
+
+                                            <div class="d-flex flex-wrap gap-3 blog-stats">
+
+                                                <span>
+                                                    462 views
+                                                </span>
+
+                                                <span>
+                                                    0 comments
+                                                </span>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="col-4 text-end">
+
+                                            <button
+                                                type="button"
+                                                class="blog-like-btn"
+                                                aria-label="Like post"
+                                            >
+
+                                                <span class="me-2">
+                                                    7
+                                                </span>
+
+                                                <i class="fa-regular fa-heart"></i>
+
+                                            </button>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<footer class="site-footer py-4">
+
+    <div class="container">
+
+        <div class="row justify-content-center">
+
+            <div class="col-12 col-md-10 col-lg-8 text-center">
+
+                <p class="footer-text mb-1">
+                    © Chef Junction. Catering for all events. 210-429-0798
+                </p>
+
+                <p class="footer-text mb-1">
+                    San Antonio, Tx. 78207
+                </p>
+
+                <p class="footer-text mb-0">
+                    Proudly created by
+                    <a href="#" class="footer-link">
+                        beknowncreativemedia.com
+                    </a>
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+    <!-- Bootstrap JavaScript -->
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    ></script>
+
+</body>
+</html>
